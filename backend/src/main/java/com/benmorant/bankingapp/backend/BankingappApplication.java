@@ -4,10 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BankingappBackendApplication {
+public class BankingappApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BankingappBackendApplication.class, args);
+		SpringApplication.run(BankingappApplication.class, args);
+		System.out.println("http://localhost:8060/bankingapp/index.html");
 	}
 
 }
