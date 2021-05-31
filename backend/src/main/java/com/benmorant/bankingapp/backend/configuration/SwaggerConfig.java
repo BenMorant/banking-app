@@ -1,4 +1,4 @@
-package com.benmorant.bankingapp.backend.util;
+package com.benmorant.bankingapp.backend.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
